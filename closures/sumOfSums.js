@@ -9,4 +9,4 @@ function sum(a){
 }
 
 console.log(sum(2)(3)(4).toString());
-console.log(sum(2)(3)(4)(5)(6).toString());
+console.log(sum(2)(3)(4)(5)(7).toString());
