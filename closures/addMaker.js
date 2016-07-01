@@ -1,3 +1,8 @@
+/*
+	clousures mean, nested functions will have access to the scope of outer function after executing the outer function.
+	only condition is nested function should have reference using which nested function can be called.
+**/
+
 function addMaker(n){
 	var inc=n;
 	var sum=0;
