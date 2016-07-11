@@ -6,7 +6,7 @@ function doublingDecorator(f){
 
 function sum(a,b){
 	return a+b;
-}
+}	
 console.log(sum(2,3));
 sum=doublingDecorator(sum);
 console.log(sum(2,3));

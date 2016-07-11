@@ -11,4 +11,6 @@ http://www.tutorialspoint.com/nodejs/index.htm
 
 Javascript Basics
 http://javascript.info/tutorial/closures#access-to-outer-variables
+https://www.youtube.com/watch?v=QyUFheng6J0
+
 		

@@ -1,9 +1,11 @@
 function customAysn(callback){
 
 	setTimeout(function(){
-		// callback();
+		 callback();
 		console.log('waiting');	
-	},100);
+
+	},10000);
+	console.log("inside customAysn");
 }
 
 customAysn(function(){console.log('Waiting for 100 secs')});
