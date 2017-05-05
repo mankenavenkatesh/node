@@ -1,0 +1,25 @@
+{
+  "name": "mongodatabase",
+  "version": "1.0.0",
+  "description": "Experiments with mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mankenavenkatesh/nodebasics.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "mankenavenkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mankenavenkatesh/nodebasics/issues"
+  },
+  "homepage": "https://github.com/mankenavenkatesh/nodebasics#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26"
+  }
+}
