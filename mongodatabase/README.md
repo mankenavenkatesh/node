@@ -6,6 +6,7 @@ http://treehouse.github.io/installation-guides/mac/mongo-mac.html
 
 Installing nodejs mongodb driver 
 https://docs.mongodb.com/getting-started/node/client/
+http://mongodb.github.io/node-mongodb-native/2.2/tutorials/connect/
 
 UI client for mongodb
 https://robomongo.org/
@@ -31,6 +32,7 @@ Collections
 2. Collections are analogous to tables in relational database.
 3. Unlike table, however, a collection does not require its documents to have in same schema.
 4. In Mongodb, document stored in collection should have unique _id field that acts as primary key.
+
 
 
 
