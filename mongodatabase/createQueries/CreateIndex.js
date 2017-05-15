@@ -9,6 +9,7 @@ MongoClient.connect(url, function(error, db){
     console.log("connected to db");
     createIndex(db, function(result){
         console.log("Index Created - "+result);
+        db.close();
     });
 });
 

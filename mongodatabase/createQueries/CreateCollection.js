@@ -13,7 +13,6 @@ MongoClient.connect(url, function(err, db){
 
 });
 
-
 var createCollection=function(db, callback){
 
     db.createCollection("contacts",
