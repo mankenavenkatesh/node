@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser=require('body-parser');
 const MongoClient = require('mongodb').MongoClient
+config=require('./config/index.js')
 app.set('view engine', 'ejs')
+
 
 // urlencoded method will tell bodyparser to extract data from form element and add them to body property in the request object.
 app.use(bodyParser.urlencoded({extended:true}))
@@ -25,7 +27,12 @@ app.post("/quotes", (req, res)=>{
 })
 
 var db
-var linkToMongoDb = 'mongodb://localhost:27017/test'
+var hostname=config.hostname
+var database=config.mongo.db
+console.log(hostname)
+console.log(database)
+
+var linkToMongoDb = 'mongodb://'+hostname+':27017/'+database
 MongoClient.connect(linkToMongoDb, (err, database)=>{
    if(err) return console.log(err)
     db=database
