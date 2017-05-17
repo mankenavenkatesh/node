@@ -13,4 +13,6 @@ Javascript Basics
 http://javascript.info/tutorial/closures#access-to-outer-variables
 https://www.youtube.com/watch?v=QyUFheng6J0
 
-		
+
+Try NodeJs package in browser
+https://npm.runkit.com/slack-proxy
